@@ -3,24 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/login_navigation"
-    app:startDestination="@id/ingresar">
-
+    app:startDestination="@id/ingresar_app">
     <fragment
-        android:id="@+id/ingresar"
-        android:name="upt.solmovi.meditac.login.ingresar"
-        android:label="fragment_ingresar"
-        tools:layout="@layout/fragment_ingresar" >
+        android:id="@+id/ingresar_app"
+        android:name="upt.solmovi.meditac.login.ingresar_app"
+        android:label="fragment_ingresar_app"
+        tools:layout="@layout/fragment_ingresar_app" >
         <action
-            android:id="@+id/action_ingresar_to_crear"
-            app:destination="@id/crear" />
+            android:id="@+id/action_ingresar_app_to_crear_cuenta_01"
+            app:destination="@id/crear_cuenta_app4" />
     </fragment>
     <fragment
-        android:id="@+id/crear"
-        android:name="upt.solmovi.meditac.login.crear"
-        android:label="fragment_crear"
-        tools:layout="@layout/fragment_crear" >
+        android:id="@+id/crear_cuenta_app4"
+        android:name="upt.solmovi.meditac.login.crear_cuenta_app"
+        android:label="fragment_crear_cuenta_app"
+        tools:layout="@layout/fragment_crear_cuenta_app"
+         >
         <action
-            android:id="@+id/action_crear_to_ingresar"
-            app:destination="@id/ingresar" />
+            android:id="@+id/action_crear_cuenta_app_to_ingresar_app02"
+            app:destination="@id/ingresar_app" />
     </fragment>
 </navigation>

@@ -21,10 +21,8 @@ class ingresar : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentIngresarBinding.inflate(inflater,container,false)
 
-        binding.btncrearCuenta.setOnClickListener{view: View->
-            view.findNavController().navigate(R.id.action_ingresar_to_crear)
-        }
         return binding.root
     }
+
 
 }

@@ -9,6 +9,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <!--
 
             <FrameLayout
                 android:layout_width="409dp"
@@ -394,6 +395,8 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </androidx.cardview.widget.CardView>
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            -->
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>

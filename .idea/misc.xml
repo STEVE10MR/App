@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/App-master/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/App-master/app/src/main/res/layout/fragment_crear_cuenta_app.xml" value="0.18802083333333333" />
+        <entry key="..\:/App-master/app/src/main/res/layout/fragment_home_app.xml" value="0.18802083333333333" />
+        <entry key="..\:/App-master/app/src/main/res/layout/fragment_ingresar.xml" value="0.18802083333333333" />
+        <entry key="..\:/App-master/app/src/main/res/layout/fragment_ingresar_app.xml" value="0.18802083333333333" />
+        <entry key="..\:/App-master/app/src/main/res/layout/fragment_perfil_medico.xml" value="0.1" />
         <entry key="..\:/Users/Rafael/Desktop/android/meditac/app/src/main/res/layout/activity_login.xml" value="0.2930253623188406" />
         <entry key="..\:/Users/Rafael/Desktop/android/meditac/app/src/main/res/layout/activity_main.xml" value="0.2930253623188406" />
         <entry key="..\:/Users/Rafael/Desktop/android/meditac/app/src/main/res/layout/fragment_crear.xml" value="0.2930253623188406" />
@@ -11,6 +17,7 @@
         <entry key="..\:/Users/Rafael/Desktop/android/meditac/app/src/main/res/layout/fragment_ingresar.xml" value="0.2930253623188406" />
         <entry key="..\:/Users/Rafael/Desktop/android/meditac/app/src/main/res/layout/fragment_ingresar_app.xml" value="0.2930253623188406" />
         <entry key="..\:/Users/Rafael/Desktop/android/meditac/app/src/main/res/layout/fragment_perfil_medico.xml" value="0.2930253623188406" />
+        <entry key="..\:/Users/SteveM/Documents/GitHub/App/app/src/main/res/layout/fragment_perfil_medico.xml" value="0.28804347826086957" />
       </map>
     </option>
   </component>

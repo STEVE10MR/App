@@ -4,4 +4,13 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Email">Email</string>
     <string name="Password">Password</string>
+    <string name="FirtsName">Nombre</string>
+    <string name="LastName">Apellidos</string>
+    <string name="Session">INICIAR SESION</string>
+    <string name="NotAccount">¿No Tienes una Cuenta?</string>
+    <string name="HaveAccount">¿Ya Tienes una Cuenta?</string>
+    <string name="CreateAccount">CREAR CUENTA</string>
+    <string name="name">MEDITAC</string>
+
+
 </resources>

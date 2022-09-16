@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.ingresar_app">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_crear"
+            android:layout_width="190dp"
+            android:layout_height="56dp"
+            android:backgroundTint="#8494C3"
+            android:text="Crear cuenta"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="560dp" />
+
+        <Button
+            android:id="@+id/btn_iniciar"
+            android:layout_width="190dp"
+            android:layout_height="56dp"
+            android:backgroundTint="#3955AA"
+            android:text="Iniciar sesión"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="444dp" />
+
+        <EditText
+            android:id="@+id/txt_contraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tiene una cuenta?"
+            android:textAllCaps="false"
+            android:textColor="#535455"
+            android:textIsSelectable="false"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="267dp"
+            android:layout_height="47dp"
+            android:text="Iniciar Sesión"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <LinearLayout
+            android:layout_width="455dp"
+            android:layout_height="190dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="-8dp"
+            tools:layout_editor_absoluteY="-1dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="482dp"
+                    android:layout_height="203dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/azul"
+                    tools:layout_editor_absoluteX="-13dp"
+                    tools:layout_editor_absoluteY="-3dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="176dp"
+                    android:layout_height="69dp"
+                    android:src="@drawable/logo"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="6dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="124dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="606dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="528dp"
+                    android:layout_height="219dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amarillo"
+                    tools:layout_editor_absoluteX="-17dp"
+                    tools:layout_editor_absoluteY="-10dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

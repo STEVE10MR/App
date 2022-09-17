@@ -61,12 +61,15 @@ dependencies {
 
 
     implementation "androidx.fragment:fragment-ktx:1.5.2"
-    //api 'androidx.navigation:navigation-fragment-ktx:2.4.0-alpha04'
-    //api 'androidx.navigation:navigation-ui-ktx:2.4.0-alpha04'
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
     implementation "androidx.drawerlayout:drawerlayout:1.1.1"
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+
+
+
+
 }

@@ -1,6 +1,7 @@
 package upt.solmovi.meditac
 
 import android.content.res.Configuration
+import android.net.wifi.hotspot2.pps.HomeSp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -11,11 +12,13 @@ import android.widget.Toolbar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import upt.solmovi.meditac.databinding.ActivityMainBinding
+import upt.solmovi.meditac.home.home_app
 
 class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelectedListener{
 
@@ -76,4 +79,5 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
         }
         return super.onOptionsItemSelected(item)
     }
+
 }

@@ -1,13 +1,13 @@
 package upt.solmovi.meditac.bd_simu
 
 class Medico (
-    val id: Int,
-    val Nombre: String,
-    val apellido: String,
-    val especialidad: String,
-    val sexo: String,
-    val edad: Int,
-    val descripcion: String,
-    val medicoImageUrl: String
-
+    var id: Int,
+    var Nombre: String,
+    var apellido: String,
+    var especialidad: String,
+    var sexo: String,
+    var edad: Int,
+    var descripcion: String,
+    var medicoImageUrl: String
 )
+

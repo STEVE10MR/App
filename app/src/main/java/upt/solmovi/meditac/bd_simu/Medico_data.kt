@@ -1,5 +1,8 @@
 package upt.solmovi.meditac.bd_simu
 
+import android.util.Log
+
+
 object Medico_data {
     val medicosList = listOf(
         Medico(
@@ -65,4 +68,9 @@ object Medico_data {
         ),
 
         )
+
+    fun GetList(): List<Medico> {
+
+        return medicosList
+    }
 }

@@ -32,8 +32,17 @@
         android:label="perfil_medico"
         tools:layout="@layout/fragment_perfil_medico">
         <argument
-            android:name="id"
-            app:argType="integer" />
+            android:name="titulo"
+            app:argType="string" />
+        <argument
+            android:name="nombre"
+            app:argType="string" />
+        <argument
+            android:name="apellidos"
+            app:argType="string" />
+        <argument
+            android:name="descripcion"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/home_app"
@@ -43,5 +52,8 @@
         <argument
             android:name="id"
             app:argType="integer" />
+        <action
+            android:id="@+id/action_home_app_to_PerfilFragment"
+            app:destination="@id/PerfilFragment" />
     </fragment>
 </navigation>

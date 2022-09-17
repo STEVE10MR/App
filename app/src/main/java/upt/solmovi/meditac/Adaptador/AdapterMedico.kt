@@ -7,11 +7,13 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.view.menu.MenuView
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.google.android.material.imageview.ShapeableImageView
 import upt.solmovi.meditac.R
 import upt.solmovi.meditac.bd_simu.Medico
+import upt.solmovi.meditac.home.home_appDirections
 
 class AdapterMedico(val List:ArrayList<Medico>): RecyclerView.Adapter<AdapterMedico.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdapterMedico.ViewHolder {
@@ -29,8 +31,8 @@ class AdapterMedico(val List:ArrayList<Medico>): RecyclerView.Adapter<AdapterMed
         holder.name.text= currentItem.Nombre
         holder.image.text=currentItem.Nombre
 
-        holder.itemView.findViewById<Button>(R.id.btn_info).setOnClickListener {
-            Toast.makeText(it.context,"Click Informaciuon",Toast.LENGTH_SHORT).show()
+        holder.itemView.findViewById<Button>(R.id.btn_info).setOnClickListener {view:View->
+            view.findNavController().navigate(home_appDirections.actionHomeAppToPerfilFragment(currentItem.especialidad,currentItem.Nombre,currentItem.apellido,currentItem.descripcion))
         }
     }
     class ViewHolder(ItemView: View):RecyclerView.ViewHolder(ItemView)

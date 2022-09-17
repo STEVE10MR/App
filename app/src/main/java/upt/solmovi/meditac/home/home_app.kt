@@ -31,7 +31,7 @@ class home_app : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentHomeAppBinding.inflate(inflater,container,false)
+        _binding = FragmentHomeAppBinding.inflate(inflater, container, false)
 
         return binding.root
 

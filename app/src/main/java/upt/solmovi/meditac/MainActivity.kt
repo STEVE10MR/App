@@ -56,6 +56,8 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
         when (item.itemId)
         {
             R.id.CrearFragment -> Toast.makeText(this,"Item",Toast.LENGTH_SHORT).show()
+            R.id.Home-> Toast.makeText(this,"fdgf",Toast.LENGTH_SHORT).show()
+
         }
         drawer.closeDrawer(GravityCompat.START)
 
@@ -75,6 +77,7 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(toogle.onOptionsItemSelected(item))
         {
+
             return true
         }
         return super.onOptionsItemSelected(item)

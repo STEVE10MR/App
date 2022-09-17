@@ -23,6 +23,14 @@ class perfil_medico : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentPerfilMedicoBinding.inflate(inflater,container,false)
+
+
+        val args = perfil_medicoArgs.fromBundle(requireArguments())
+
+        binding.txtSetTitle.text = args.titulo
+        binding.txtSetNombre.text = args.nombre
+        binding.txtSetApellidos.text = args.apellidos
+        binding.txtSetDescripcion.text = args.descripcion
         return binding.root
     }
 

@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/Email"
-            android:inputType="textPassword"
+            android:inputType="textEmailAddress"
             android:padding="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

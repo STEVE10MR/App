@@ -3,24 +3,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/login_navigation"
-    app:startDestination="@id/ingresar_app">
+    app:startDestination="@id/IngresarFragment">
     <fragment
-        android:id="@+id/ingresar_app"
+        android:id="@+id/IngresarFragment"
         android:name="upt.solmovi.meditac.login.ingresar_app"
         android:label="fragment_ingresar_app"
         tools:layout="@layout/fragment_ingresar_app" >
         <action
             android:id="@+id/action_ingresar_app_to_crear_cuenta_01"
-            app:destination="@id/crear_cuenta_app4" />
+            app:destination="@id/CrearFragment" />
+        <action
+            android:id="@+id/action_IngresarFragment_to_home_app2"
+            app:destination="@id/home_app" />
     </fragment>
     <fragment
-        android:id="@+id/crear_cuenta_app4"
+        android:id="@+id/CrearFragment"
         android:name="upt.solmovi.meditac.login.crear_cuenta_app"
         android:label="fragment_crear_cuenta_app"
         tools:layout="@layout/fragment_crear_cuenta_app"
          >
         <action
             android:id="@+id/action_crear_cuenta_app_to_ingresar_app02"
-            app:destination="@id/ingresar_app" />
+            app:destination="@id/IngresarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PerfilFragment"
+        android:name="upt.solmovi.meditac.home.perfil_medico"
+        android:label="perfil_medico"
+        tools:layout="@layout/fragment_perfil_medico">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/home_app"
+        android:name="upt.solmovi.meditac.home.home_app"
+        android:label="home_app"
+        tools:layout="@layout/fragment_home_app">
+        <argument
+            android:name="id"
+            app:argType="integer" />
     </fragment>
 </navigation>

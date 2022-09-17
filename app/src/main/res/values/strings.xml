@@ -15,5 +15,14 @@
     <string name="CreateAccount">CREAR CUENTA</string>
     <string name="name">MEDITAC</string>
 
+    <string name="menu_Perfil">Mi Perfil</string>
+    <string name="menu_Doctores">Mis Doctores</string>
+    <string name="menu_CerrarSesion">Cerrar Session</string>
+    <string name="menu_Configuracion">Configuracion</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+
 
 </resources>

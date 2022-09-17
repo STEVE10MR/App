@@ -12,6 +12,9 @@
         <action
             android:id="@+id/action_ingresar_app_to_crear_cuenta_01"
             app:destination="@id/crear_cuenta_app4" />
+        <action
+            android:id="@+id/action_ingresar_app_to_perfil_medico_app"
+            app:destination="@id/perfil_medico" />
     </fragment>
     <fragment
         android:id="@+id/crear_cuenta_app4"
@@ -22,5 +25,15 @@
         <action
             android:id="@+id/action_crear_cuenta_app_to_ingresar_app02"
             app:destination="@id/ingresar_app" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfil_medico"
+        android:name="upt.solmovi.meditac.home.perfil_medico"
+        android:label="perfil_medico"
+        tools:layout="@layout/fragment_perfil_medico"
+        >
+        <argument
+            android:name="arg_id"
+            app:argType="integer" />
     </fragment>
 </navigation>

@@ -6,6 +6,9 @@
     <string name="Password">Password</string>
     <string name="FirtsName">Nombre</string>
     <string name="LastName">Apellidos</string>
+    <string name="Telephone">Numero Telefonico</string>
+    <string name="Title">Titulo</string>
+    <string name="DataGet">Data</string>
     <string name="Session">INICIAR SESION</string>
     <string name="NotAccount">¿No Tienes una Cuenta?</string>
     <string name="HaveAccount">¿Ya Tienes una Cuenta?</string>

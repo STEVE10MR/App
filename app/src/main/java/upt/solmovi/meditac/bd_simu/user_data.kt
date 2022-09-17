@@ -13,4 +13,14 @@ object user_data {
 
 
     )
+    fun GetUserId(gmail:String,password:String): Int {
+        for(userdata in user_data.usuarioList)
+        {
+            if((userdata.gmail == gmail) && (userdata.contrasenia == password))
+            {
+                return userdata.id
+            }
+        }
+        return 0
+    }
 }
